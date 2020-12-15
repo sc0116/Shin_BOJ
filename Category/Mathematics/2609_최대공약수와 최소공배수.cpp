@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int GCD(int n1, int n2) {
+int GCD(int n1, int n2) { //GCD is 최대공약수, LSD is 최소공배수
 	return n2 ? GCD(n2, n1 % n2) : n1;
 }
 
